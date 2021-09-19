@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4f851014cd3e5d47bf76730248f0f59, type: 3}
+  m_Name: Level02Data
+  m_EditorClassIdentifier: 
+  background: {fileID: 971598886686934083, guid: dd72643d8e58517438efa1d7f86fc9f3,
+    type: 3}
+  bounceGround: {fileID: 5870766353550205696, guid: 17c80745124f1e44796c9f74cfcab30f,
+    type: 3}
+  launchPlatform: {fileID: 7495244700819160431, guid: 1ba04d6c5210cfa4d992ea71bff32b4e,
+    type: 3}
+  ship: {fileID: 3563294259359824252, guid: 6527c10465e7c8f4f9d5a047f796fee1, type: 3}
+  skyBreadth: 75
+  cloudCount: 200
+  cloudDrift: 0.5
+  cloudHeight: 15
+  cloudStopHeight: 45
+  clouds:
+  - {fileID: 6324032194635536727, guid: 1d73e63554c23ef4d8e42dc5e0e5a656, type: 3}
+  - {fileID: 7824595792210036953, guid: 6154331447a88bb4e9a0e353aa99f0bc, type: 3}
+  - {fileID: 4164941473773735219, guid: 5b6ca73120b7ecc4cbae63ad50c1beec, type: 3}
+  trashHeight: 50
+  trashDrift: 1
+  badTrashCount: 200
+  badTrash:
+  - {fileID: 531030372668144494, guid: 077bd2fdef8341b4189df6b2135261d5, type: 3}
+  - {fileID: 8672720623276219145, guid: ef156e2be525d9641aa004fc25c6009d, type: 3}
+  - {fileID: 5573456515479463242, guid: 081eb718ce10b514aa542cc9349fbc5d, type: 3}
+  - {fileID: 1880603342895051999, guid: 7adc3db29cf110f489b28a82b655494e, type: 3}
+  - {fileID: 8246908191310694888, guid: 9e5d8aeb70010f04a8e0ab78c8b730d9, type: 3}
+  - {fileID: 2351583891248031412, guid: 3940cec58054cc44589e1346fa73217b, type: 3}
+  - {fileID: 6627695874889183900, guid: d8f61f52ce48e1342991f3f644d595f4, type: 3}
+  - {fileID: 4566686843853386392, guid: 364a735b6e360a94a93a3fe261f598a1, type: 3}
+  goodTrashCount: 150
+  goodTrash:
+  - {fileID: 4760283999445857233, guid: fd7ad226b9705214ebccf12b49c5835f, type: 3}
+  - {fileID: 4740416362420410649, guid: 0600d80c82c5a614db679bd575e27b7d, type: 3}
+  - {fileID: 7133051838115766297, guid: 1ba9ad07e49ed264f8a82576f4157faf, type: 3}
+  - {fileID: 1998512312198995714, guid: 6ec02cd2199ab194d8f41c2328d3d90a, type: 3}
+  - {fileID: 6490368899458002225, guid: 1ffc3f869c4fbaa409b772fe52255c61, type: 3}
+  - {fileID: 3729318016747158284, guid: 6bda089f6fb564c4f941d1612a3031cf, type: 3}
+  - {fileID: 1144672415081982185, guid: 761bc9900bdcf0443bd8bcb6e7963e16, type: 3}
+  - {fileID: 4616629258390980520, guid: 792f9493937f782458530f067049047e, type: 3}
+  - {fileID: 5058341554037962742, guid: 35627dd437d06e148af092bc6df50292, type: 3}
+  - {fileID: 1560639750833546880, guid: f98fbe28eaccbea499cb8dc6f48dce01, type: 3}
+  exitHeight: 300
