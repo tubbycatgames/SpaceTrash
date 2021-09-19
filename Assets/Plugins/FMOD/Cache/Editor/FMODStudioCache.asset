@@ -1,0 +1,1024 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9203089474559450661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/Ship/ship_bounce
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/Ship/ship_bounce
+  guid: 8c63115217b7344dbc14e095f7d0ccfd
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -8676950155094240728}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1500
+--- !u!114 &-9100253729057166579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/junk/pickup_car
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/junk/pickup_car
+  guid: 158052b39f49ee43b917189300c14c1d
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-8676950155094240728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ship_bounce/bounce velocity
+  m_EditorClassIdentifier: 
+  Name: bounce velocity
+  Min: 0
+  Max: 8
+  Default: 0
+  Exists: 1
+--- !u!114 &-8598470082794761627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ship_accelerate/ship_speed
+  m_EditorClassIdentifier: 
+  Name: ship_speed
+  Min: 0
+  Max: 9
+  Default: 0
+  Exists: 1
+--- !u!114 &-8042505236193225698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ship_bounce/bounce velocity
+  m_EditorClassIdentifier: 
+  Name: bounce velocity
+  Min: 0
+  Max: 8
+  Default: 0
+  Exists: 0
+--- !u!114 &-7940754573656478052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/junk/pickup_bottle
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/junk/pickup_bottle
+  guid: 42c4d908d6a5214a9462fd5b42857f7b
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2031
+--- !u!114 &-7305514353938313138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/junk/pickup_small
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/junk/pickup_small
+  guid: d3cc36079e3a5b44ba8695f956743421
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-6976220157150013660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/Ship/ship_slow
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/Ship/ship_slow
+  guid: 8cae9cc0b4f1f144ba310d9e49d04523
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 23682
+--- !u!114 &-6044262173274907809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/fuel_low_loop
+  m_EditorClassIdentifier: 
+  Path: event:/UI/fuel_low_loop
+  guid: fd238b7773fb1d4994281b3b4396a939
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6593588622270285402}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 947
+--- !u!114 &-5998095998100935305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ship_accelerate/ship_speed
+  m_EditorClassIdentifier: 
+  Name: ship_speed
+  Min: 0
+  Max: 9
+  Default: 0
+  Exists: 0
+--- !u!114 &-4963947515510938219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ship_takeOff/ship_looping
+  m_EditorClassIdentifier: 
+  Name: ship_looping
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
+--- !u!114 &-4564719157877156891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/Ship/ship_no_fuel
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/Ship/ship_no_fuel
+  guid: 67a168b5e5858041bbd01204d89b7fc6
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4017
+--- !u!114 &-4411237380587880601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Banks/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637166146233336006
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2526
+  Exists: 1
+--- !u!114 &-4283638865466671420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/music_level_three
+  m_EditorClassIdentifier: 
+  Path: event:/Music/music_level_three
+  guid: 43273a2b9b70a348b2e63ddb8f3e4863
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 82285
+--- !u!114 &-3824042469569864398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/junk_event
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/junk_event
+  guid: a55c4e39d6598b488a0d67ad18fda788
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3947
+--- !u!114 &-2513486174659496054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/junk/collided_normal
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/junk/collided_normal
+  guid: c1216909473d6f4e90f9f63b0dc5bf46
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2024
+--- !u!114 &-2498797752092305951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/Ship/ship_accelerate
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/Ship/ship_accelerate
+  guid: 1c554b02fd7b36449c87bc7a74e2965d
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 822450970098592848}
+  - {fileID: -8598470082794761627}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 99071
+--- !u!114 &-1092282603859029681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/Ship/ship_idle
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/Ship/ship_idle
+  guid: 84f2584a2ca28b4aa8e570e37f6a39d9
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8081
+--- !u!114 &-104116555453269103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/Ship/ship_land
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/Ship/ship_land
+  guid: 9b6548ee341e444fa382f8176750ea97
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5178
+--- !u!114 &-59512658171326352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background/orange_world
+  m_EditorClassIdentifier: 
+  Path: event:/Background/orange_world
+  guid: 51f6346559d4184eb803737ec2a2547d
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 228000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -4411237380587880601}
+  - {fileID: 8551344750642008948}
+  EditorEvents:
+  - {fileID: -9100253729057166579}
+  - {fileID: -2498797752092305951}
+  - {fileID: 6555153559303844666}
+  - {fileID: 7815942704323229018}
+  - {fileID: -7940754573656478052}
+  - {fileID: -4283638865466671420}
+  - {fileID: 3652806967662337897}
+  - {fileID: 6143533678841191696}
+  - {fileID: -59512658171326352}
+  - {fileID: -4564719157877156891}
+  - {fileID: 8677068365981170170}
+  - {fileID: 6095347549621566194}
+  - {fileID: 2293474058464670486}
+  - {fileID: 635780411975079422}
+  - {fileID: -1092282603859029681}
+  - {fileID: 6378531554492663614}
+  - {fileID: -9203089474559450661}
+  - {fileID: -6976220157150013660}
+  - {fileID: 6226031172111393169}
+  - {fileID: 8839349490002590743}
+  - {fileID: -104116555453269103}
+  - {fileID: 8321842194288878521}
+  - {fileID: -3824042469569864398}
+  - {fileID: -2513486174659496054}
+  - {fileID: 4899036972706100355}
+  - {fileID: -7305514353938313138}
+  - {fileID: 7584019346008881960}
+  - {fileID: 1721302107263889780}
+  - {fileID: 8203449833312928415}
+  - {fileID: 8874360527594470432}
+  - {fileID: -6044262173274907809}
+  - {fileID: 7074708639113944055}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 8551344750642008948}
+  StringsBanks:
+  - {fileID: -4411237380587880601}
+  stringsBankWriteTime: 637166146233336006
+  cacheVersion: 3
+--- !u!114 &635780411975079422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/reload
+  m_EditorClassIdentifier: 
+  Path: event:/UI/reload
+  guid: 80ce948c00e83f44a7342cf8f47fe546
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 935
+--- !u!114 &822450970098592848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ship_accelerate/ship_looping
+  m_EditorClassIdentifier: 
+  Name: ship_looping
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
+--- !u!114 &1212930960749323262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Banks/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637166143394012761
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1721302107263889780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/junk/pickup_wood
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/junk/pickup_wood
+  guid: d620d82d848e394998f04d3495eb8c16
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 742
+--- !u!114 &2264011394824138700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ship_takeOff/ship_looping
+  m_EditorClassIdentifier: 
+  Name: ship_looping
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
+--- !u!114 &2293474058464670486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/junk/pickup_duck
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/junk/pickup_duck
+  guid: 7915674231738247b36377bdaa3cd45e
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 370
+--- !u!114 &2823321762410889345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ship_accelerate/ship_looping
+  m_EditorClassIdentifier: 
+  Name: ship_looping
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
+--- !u!114 &3457626054906895969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/fuel_low_loop/fuel level
+  m_EditorClassIdentifier: 
+  Name: fuel level
+  Min: 0
+  Max: 1
+  Default: 0.1
+  Exists: 0
+--- !u!114 &3652806967662337897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/junk/pickup_slap
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/junk/pickup_slap
+  guid: 4620effc0287454da38cc11d6c7cbd5c
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &4899036972706100355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/junk/pickup_cloud
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/junk/pickup_cloud
+  guid: ce725925fa80b94292b3899d0d1f6f7d
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1878
+--- !u!114 &6095347549621566194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/pickup_UI
+  m_EditorClassIdentifier: 
+  Path: event:/UI/pickup_UI
+  guid: 742d57517b09c14aa5890b3d7672eefb
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &6143533678841191696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/game_start
+  m_EditorClassIdentifier: 
+  Path: event:/UI/game_start
+  guid: 491a95fad66c184e878fc7162843ffdf
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &6226031172111393169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/Ship/ship_accelerate_start
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/Ship/ship_accelerate_start
+  guid: 8d28690c1ad8bd46848e6ace45652307
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &6378531554492663614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/music_title
+  m_EditorClassIdentifier: 
+  Path: event:/Music/music_title
+  guid: 8661dddc74f7e54996bdf2fc1926383d
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 42857
+--- !u!114 &6555153559303844666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/music_level_one
+  m_EditorClassIdentifier: 
+  Path: event:/Music/music_level_one
+  guid: 2813c3aa565d4b448b50a1964dd31867
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 80000
+--- !u!114 &6593588622270285402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/fuel_low_loop/fuel level
+  m_EditorClassIdentifier: 
+  Name: fuel level
+  Min: 0
+  Max: 1
+  Default: 0.1
+  Exists: 1
+--- !u!114 &7074708639113944055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background/purple_world
+  m_EditorClassIdentifier: 
+  Path: event:/Background/purple_world
+  guid: fed86819623e9e4f8905a0930c114650
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 293000
+--- !u!114 &7584019346008881960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/junk/pickup_normal
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/junk/pickup_normal
+  guid: d42caa817f155f4a93ab7d0af28470d9
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &7815942704323229018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background/green_world
+  m_EditorClassIdentifier: 
+  Path: event:/Background/green_world
+  guid: 3096fe0f9681cb48b71b7dec6f1e55e5
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 255500
+--- !u!114 &8203449833312928415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/Ship/ship_accelerate_stop
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/Ship/ship_accelerate_stop
+  guid: e0f53ae0c1abe343a91606232b45c33a
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &8321842194288878521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/Ship/door_close
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/Ship/door_close
+  guid: a3c59d74c26b9548befc0bb30f1291f1
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &8551344750642008948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Banks/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637166146248602859
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &8677068365981170170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/junk/pickup_shoes
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/junk/pickup_shoes
+  guid: 6b315a518ec1714080f8826a55f165db
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &8839349490002590743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Objects/Ship/ship_takeOff
+  m_EditorClassIdentifier: 
+  Path: event:/Objects/Ship/ship_takeOff
+  guid: 97af027de260a840945790824f05f4c6
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -4963947515510938219}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
+--- !u!114 &8874360527594470432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/music_level_two
+  m_EditorClassIdentifier: 
+  Path: event:/Music/music_level_two
+  guid: e76e7224e57f604c99488f8faf292a1d
+  Banks:
+  - {fileID: 8551344750642008948}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 20000

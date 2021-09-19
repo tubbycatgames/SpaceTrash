@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e028d5619ac67e54898abbee8b1bfe35, type: 3}
+  m_Name: PickupSounds
+  m_EditorClassIdentifier: 
+  pickupSound: event:/Objects/junk/pickup_normal
+  hitSound: event:/Objects/junk/collided_normal
+  customSounds:
+  - prefab: {fileID: 4760283999445857233, guid: fd7ad226b9705214ebccf12b49c5835f,
+      type: 3}
+    sound: event:/Objects/junk/pickup_duck
+  - prefab: {fileID: 1998512312198995714, guid: 6ec02cd2199ab194d8f41c2328d3d90a,
+      type: 3}
+    sound: event:/Objects/junk/pickup_shoes
+  - prefab: {fileID: 6490368899458002225, guid: 1ffc3f869c4fbaa409b772fe52255c61,
+      type: 3}
+    sound: event:/Objects/junk/pickup_shoes
+  - prefab: {fileID: 3729318016747158284, guid: 6bda089f6fb564c4f941d1612a3031cf,
+      type: 3}
+    sound: event:/Objects/junk/pickup_shoes
+  - prefab: {fileID: 5058341554037962742, guid: 35627dd437d06e148af092bc6df50292,
+      type: 3}
+    sound: event:/Objects/junk/pickup_slap
+  - prefab: {fileID: 1560639750833546880, guid: f98fbe28eaccbea499cb8dc6f48dce01,
+      type: 3}
+    sound: event:/Objects/junk/pickup_slap
+  - prefab: {fileID: 7133051838115766297, guid: 1ba9ad07e49ed264f8a82576f4157faf,
+      type: 3}
+    sound: event:/Objects/junk/pickup_bottle
+  - prefab: {fileID: 6627695874889183900, guid: d8f61f52ce48e1342991f3f644d595f4,
+      type: 3}
+    sound: event:/Objects/junk/pickup_wood
+  - prefab: {fileID: 4616629258390980520, guid: 792f9493937f782458530f067049047e,
+      type: 3}
+    sound: event:/Objects/junk/pickup_bottle
+  - prefab: {fileID: 1144672415081982185, guid: 761bc9900bdcf0443bd8bcb6e7963e16,
+      type: 3}
+    sound: event:/Objects/junk/pickup_car
